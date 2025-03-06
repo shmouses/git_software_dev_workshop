@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Basic Git Commands
-permalink: /01_basic_concepts/02_basic_commands/
+permalink: /git_software_dev_workshop/01_basic_concepts/02_basic_commands/
 progress: 20
-previous: /01_basic_concepts/01_introduction/
-next: /01_basic_concepts/03_working_with_files/
+previous: /git_software_dev_workshop/01_basic_concepts/01_introduction/
+next: /git_software_dev_workshop/01_basic_concepts/03_working_with_files/
 ---
 
 # Basic Git Commands
@@ -109,4 +109,4 @@ In the next section, we'll learn about:
 - Common Git operations
 - Best practices for commits
 
-[Continue to Working with Files →](/01_basic_concepts/03_working_with_files/) 
+[Continue to Working with Files →](/git_software_dev_workshop/01_basic_concepts/03_working_with_files/) 

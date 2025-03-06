@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Pull Requests
-permalink: /03_team_collaboration/02_pull_requests/
+permalink: /git_software_dev_workshop/03_team_collaboration/02_pull_requests/
 progress: 70
-previous: /03_team_collaboration/01_forking_and_remote/
-next: /04_project_management/01_git_for_leaders/
+previous: /git_software_dev_workshop/03_team_collaboration/01_forking_and_remote/
+next: /git_software_dev_workshop/04_project_management/01_git_for_leaders/
 ---
 
 # Pull Requests
@@ -115,4 +115,4 @@ In the next section, we'll learn about:
 - Workflow management
 - Team collaboration
 
-[Continue to Git for Project Leaders →](/04_project_management/01_git_for_leaders/) 
+[Continue to Git for Project Leaders →](/git_software_dev_workshop/04_project_management/01_git_for_leaders/) 

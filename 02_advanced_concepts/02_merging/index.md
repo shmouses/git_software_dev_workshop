@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Merging in Git
-permalink: /02_advanced_concepts/02_merging/
+permalink: /git_software_dev_workshop/02_advanced_concepts/02_merging/
 progress: 50
-previous: /02_advanced_concepts/01_branching/
-next: /03_team_collaboration/01_forking_and_remote/
+previous: /git_software_dev_workshop/02_advanced_concepts/01_branching/
+next: /git_software_dev_workshop/03_team_collaboration/01_forking_and_remote/
 ---
 
 # Merging in Git
@@ -118,4 +118,4 @@ In the next section, we'll learn about:
 - Pull requests
 - Collaboration workflows
 
-[Continue to Forking and Remote Repositories →](/03_team_collaboration/01_forking_and_remote/) 
+[Continue to Forking and Remote Repositories →](/git_software_dev_workshop/03_team_collaboration/01_forking_and_remote/) 
