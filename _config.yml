@@ -1,7 +1,7 @@
 title: Git Workshop
 description: A comprehensive guide to Git from basics to advanced collaboration
-url: "https://shmouses.github.io"
-baseurl: "/git_software_dev_workshop"
+baseurl: "https://shmouses.github.io"
+
 
 # Theme settings
 theme: jekyll-theme-cayman
