@@ -101,4 +101,4 @@ In the next section, we'll learn about:
 - Security best practices
 - Performance optimization
 
-[Continue to Workflow Strategies →](/04_project_management/02_workflow_strategies/) 
+[Continue to Workflow Strategies →](/git_software_dev_workshop/04_project_management/02_workflow_strategies/) 

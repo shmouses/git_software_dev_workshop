@@ -98,4 +98,4 @@ In the next section, we'll learn about:
 - Understanding the Git workflow
 - Common Git operations
 
-[Continue to Basic Git Commands →](/01_basic_concepts/02_basic_commands/) 
+[Continue to Basic Git Commands →](/git_software_dev_workshop/01_basic_concepts/02_basic_commands/) 

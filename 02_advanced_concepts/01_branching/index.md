@@ -89,4 +89,4 @@ In the next section, we'll learn about:
 - Advanced branching strategies
 - Branch management best practices
 
-[Continue to Merging →](/02_advanced_concepts/02_merging/) 
+[Continue to Merging →](/git_software_dev_workshop/02_advanced_concepts/02_merging/) 

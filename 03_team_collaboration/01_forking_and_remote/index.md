@@ -101,4 +101,4 @@ In the next section, we'll learn about:
 - Managing pull requests
 - Collaboration best practices
 
-[Continue to Pull Requests →](/03_team_collaboration/02_pull_requests/) 
+[Continue to Pull Requests →](/git_software_dev_workshop/03_team_collaboration/02_pull_requests/) 
