@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Git for Project Leaders
-permalink: /04_project_management/01_git_for_leaders/
+permalink: /git_software_dev_workshop/04_project_management/01_git_for_leaders/
 progress: 80
-previous: /03_team_collaboration/02_pull_requests/
-next: /04_project_management/02_workflow_strategies/
+previous: /git_software_dev_workshop/03_team_collaboration/02_pull_requests/
+next: /git_software_dev_workshop/04_project_management/02_workflow_strategies/
 ---
 
 # Git for Project Leaders

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Git Workflow Strategies
-permalink: /04_project_management/02_workflow_strategies/
+permalink: /git_software_dev_workshop/04_project_management/02_workflow_strategies/
 progress: 90
-previous: /04_project_management/01_git_for_leaders/
-next: /exercises/python_project/
+previous: /git_software_dev_workshop/04_project_management/01_git_for_leaders/
+next: /git_software_dev_workshop/exercises/python_project/
 ---
 
 # Git Workflow Strategies
@@ -116,4 +116,4 @@ In the next section, we'll work on:
 - Real-world scenarios
 - Hands-on practice
 
-[Continue to Python Project Exercise →](/exercises/python_project/) 
+[Continue to Python Project Exercise →](/git_software_dev_workshop/exercises/python_project/) 

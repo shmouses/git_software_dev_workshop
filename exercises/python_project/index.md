@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Python Project Exercise
-permalink: /exercises/python_project/
+permalink: /git_software_dev_workshop/exercises/python_project/
 progress: 100
-previous: /04_project_management/02_workflow_strategies/
+previous: /git_software_dev_workshop/04_project_management/02_workflow_strategies/
 ---
 
 # Python Project Exercise

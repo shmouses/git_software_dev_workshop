@@ -3,9 +3,11 @@ description: A comprehensive guide to Git from basics to advanced collaboration
 baseurl: "/git_software_dev_workshop"
 url: "https://shmouses.github.io"
 
+# Theme settings
+theme: jekyll-theme-cayman
+
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -14,35 +16,35 @@ plugins:
 # Navigation
 navigation:
   - title: Home
-    url: /
+    url: /git_software_dev_workshop/
   - title: Basic Concepts
-    url: /01_basic_concepts/01_introduction/
+    url: /git_software_dev_workshop/01_basic_concepts/01_introduction/
   - title: Advanced Concepts
-    url: /02_advanced_concepts/01_branching/
+    url: /git_software_dev_workshop/02_advanced_concepts/01_branching/
   - title: Team Collaboration
-    url: /03_team_collaboration/01_forking_and_remote/
+    url: /git_software_dev_workshop/03_team_collaboration/01_forking_and_remote/
   - title: Project Management
-    url: /04_project_management/01_git_for_leaders/
+    url: /git_software_dev_workshop/04_project_management/01_git_for_leaders/
   - title: Exercises
-    url: /exercises/python_project/
+    url: /git_software_dev_workshop/exercises/python_project/
 
 # Collections
 collections:
   basic_concepts:
     output: true
-    permalink: /01_basic_concepts/:path/
+    permalink: /git_software_dev_workshop/01_basic_concepts/:path/
   advanced_concepts:
     output: true
-    permalink: /02_advanced_concepts/:path/
+    permalink: /git_software_dev_workshop/02_advanced_concepts/:path/
   team_collaboration:
     output: true
-    permalink: /03_team_collaboration/:path/
+    permalink: /git_software_dev_workshop/03_team_collaboration/:path/
   project_management:
     output: true
-    permalink: /04_project_management/:path/
+    permalink: /git_software_dev_workshop/04_project_management/:path/
   exercises:
     output: true
-    permalink: /exercises/:path/
+    permalink: /git_software_dev_workshop/exercises/:path/
 
 # Defaults
 defaults:
