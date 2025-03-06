@@ -14,7 +14,7 @@ plugins:
 # Navigation
 navigation:
   - title: Home
-    url: /
+    url: /git_software_dev_workshop/
   - title: Basic Concepts
     url: /git_software_dev_workshop/01_basic_concepts/01_introduction/
   - title: Advanced Concepts
@@ -30,19 +30,19 @@ navigation:
 collections:
   basic_concepts:
     output: true
-    permalink: /git_software_dev_workshop/01_basic_concepts/:path/
+    permalink: /01_basic_concepts/:path/
   advanced_concepts:
     output: true
-    permalink: /git_software_dev_workshop/02_advanced_concepts/:path/
+    permalink: /02_advanced_concepts/:path/
   team_collaboration:
     output: true
-    permalink: /git_software_dev_workshop/03_team_collaboration/:path/
+    permalink: /03_team_collaboration/:path/
   project_management:
     output: true
-    permalink: /git_software_dev_workshop/04_project_management/:path/
+    permalink: /04_project_management/:path/
   exercises:
     output: true
-    permalink: /git_software_dev_workshop/exercises/:path/
+    permalink: /exercises/:path/
 
 # Defaults
 defaults:

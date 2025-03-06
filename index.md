@@ -4,42 +4,34 @@ title: Git Workshop
 permalink: /
 ---
 
-# Welcome to the Git Workshop
+# Welcome to Git Workshop
 
-This comprehensive workshop will guide you through Git, from basic concepts to advanced collaboration workflows. Whether you're a beginner or an experienced developer, you'll find valuable information and practical exercises to enhance your Git knowledge.
-
-## Workshop Sections
-
-### 1. Basic Git Concepts
-- Introduction to version control
-- Basic Git commands
-- Working with local repositories
-- Branching and merging basics
-
-### 2. Advanced Git Concepts
-- Advanced branching strategies
-- Git workflows
-- Rebasing vs merging
-- Git hooks and automation
-
-### 3. Team Collaboration
-- Working with remote repositories
-- Forking and pull requests
-- Code review best practices
-- Managing multiple contributors
-
-### 4. Project Management
-- Git for leaders
-- Managing large projects
-- Release management
-- Documentation best practices
+A comprehensive guide to Git from basics to advanced collaboration.
 
 ## Getting Started
 
-1. Choose a section from the navigation menu above
-2. Follow the step-by-step guides
-3. Complete the hands-on exercises
-4. Practice with the Python project
+1. [Introduction to Version Control](/git_software_dev_workshop/01_basic_concepts/01_introduction/)
+2. [Basic Git Commands](/git_software_dev_workshop/01_basic_concepts/02_basic_commands/)
+3. [Working with Files](/git_software_dev_workshop/01_basic_concepts/03_working_with_files/)
+
+## Advanced Topics
+
+1. [Branching in Git](/git_software_dev_workshop/02_advanced_concepts/01_branching/)
+2. [Merging](/git_software_dev_workshop/02_advanced_concepts/02_merging/)
+
+## Team Collaboration
+
+1. [Forking and Remote Repositories](/git_software_dev_workshop/03_team_collaboration/01_forking_and_remote/)
+2. [Pull Requests](/git_software_dev_workshop/03_team_collaboration/02_pull_requests/)
+
+## Project Management
+
+1. [Git for Project Leaders](/git_software_dev_workshop/04_project_management/01_git_for_leaders/)
+2. [Workflow Strategies](/git_software_dev_workshop/04_project_management/02_workflow_strategies/)
+
+## Practice
+
+- [Python Project Exercise](/git_software_dev_workshop/exercises/python_project/)
 
 ## Features
 
@@ -66,17 +58,6 @@ This comprehensive workshop will guide you through Git, from basic concepts to a
 - Workflow guidelines
 - Team collaboration
 - Project management
-
-## Python Project Exercise
-
-Work on a real-world task management application to practice:
-- Branching and merging
-- Conflict resolution
-- Pull request workflows
-- Code review practices
-- Git hooks and automation
-
-[Start the Python Project Exercise →](/exercises/python_project/)
 
 ## Contributing
 
