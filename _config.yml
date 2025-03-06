@@ -33,19 +33,19 @@ navigation:
 collections:
   basic_concepts:
     output: true
-    permalink: /01_basic_concepts/:path/
+    permalink: /git_software_dev_workshop/01_basic_concepts/:path/
   advanced_concepts:
     output: true
-    permalink: /02_advanced_concepts/:path/
+    permalink: /git_software_dev_workshop/02_advanced_concepts/:path/
   team_collaboration:
     output: true
-    permalink: /03_team_collaboration/:path/
+    permalink: /git_software_dev_workshop/03_team_collaboration/:path/
   project_management:
     output: true
-    permalink: /04_project_management/:path/
+    permalink: /git_software_dev_workshop/04_project_management/:path/
   exercises:
     output: true
-    permalink: /exercises/:path/
+    permalink: /git_software_dev_workshop/exercises/:path/
 
 # Defaults
 defaults:
