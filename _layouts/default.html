@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - Git Workshop</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo %}
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <a href="{{ '/' | relative_url }}" class="logo">Git Workshop</a>
+                <ul class="nav-links">
+                    {% for item in site.navigation %}
+                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <article>
+                {{ content }}
+            </article>
+
+            <div class="page-navigation">
+                {% if page.previous.url %}
+                <a class="prev" href="{{ page.previous.url | relative_url }}">&laquo; {{ page.previous.title }}</a>
+                {% endif %}
+                {% if page.next.url %}
+                <a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &raquo;</a>
+                {% endif %}
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; {{ site.time | date: '%Y' }} Git Workshop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

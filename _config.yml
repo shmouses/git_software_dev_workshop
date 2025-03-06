@@ -1,0 +1,45 @@
+title: Git Workshop
+description: A comprehensive guide to Git from basics to advanced collaboration
+baseurl: "/git_software_dev_workshop"
+url: "https://shmouses.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Basic Concepts
+    url: /01_basic_concepts/
+  - title: Advanced Concepts
+    url: /02_advanced_concepts/
+  - title: Team Collaboration
+    url: /03_team_collaboration/
+  - title: Project Management
+    url: /04_project_management/
+  - title: Exercises
+    url: /exercises/
+
+# Collections
+collections:
+  basic_concepts:
+    output: true
+    permalink: /01_basic_concepts/:path/
+  advanced_concepts:
+    output: true
+    permalink: /02_advanced_concepts/:path/
+  team_collaboration:
+    output: true
+    permalink: /03_team_collaboration/:path/
+  project_management:
+    output: true
+    permalink: /04_project_management/:path/
+  exercises:
+    output: true
+    permalink: /exercises/:path/ 
