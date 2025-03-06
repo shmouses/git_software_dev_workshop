@@ -19,7 +19,7 @@ navigation:
   - title: Home
     url: /git_software_dev_workshop/
   - title: Basic Concepts
-    url: /git_software_dev_workshop/01_basic_concepts/01_introduction/
+    url: /01_basic_concepts/01_introduction/
   - title: Advanced Concepts
     url: /git_software_dev_workshop/02_advanced_concepts/01_branching/
   - title: Team Collaboration
