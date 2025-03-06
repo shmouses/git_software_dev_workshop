@@ -5,14 +5,16 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+# Prevent other workflows from running simultaneously
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Allow the action to read and write repository content
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,18 +22,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      
       - name: Build site
         run: |
           gem install bundler
           bundle install
-          bundle exec jekyll build
+          bundle exec jekyll build --baseurl "${{ github.event.repository.name }}"
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
