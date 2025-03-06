@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.2"
+gem "jekyll-theme-cayman"
 gem "minima", "~> 2.5"
 
 # If you have any plugins, put them here!
